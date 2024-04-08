@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #0c001a, #5135ce);
+  color: #e2dfff;
+}

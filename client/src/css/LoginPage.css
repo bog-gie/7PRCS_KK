@@ -1,0 +1,37 @@
+.login-container {
+  height: 640px;
+}
+
+.toggle-container button {
+  width: 100%;
+  border-radius: 60px;
+  border: none;
+  color: #111111;
+  background: transparent;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.toggle-container {
+  text-align: center;
+  margin-top: 2rem;
+  border-radius: 50px;
+  display: flex;
+  background: #c0c0c0;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+}
+
+.toggle {
+  width: 50%;
+  border-radius: 50px;
+  height: inherit;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  background: linear-gradient(to right, #c5aad4, #8fa6c9);
+}
